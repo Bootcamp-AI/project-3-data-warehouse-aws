@@ -6,7 +6,7 @@ import configparser
 # ARN variable in the dwh.cfg is IAM Role arn
 config = configparser.ConfigParser()
 config.read('dwh.cfg')
-
+        
 # DROP TABLES
 
 staging_events_table_drop = "DROP TABLE IF EXISTS staging_events"
